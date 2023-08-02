@@ -22,7 +22,3 @@ Fazit:
 Die Kundensegmentierung gibt wertvolle Einblicke in die bestehende Kundenbasis und ermöglicht eine kundenorientierte Ausrichtung von Geschäftsaktivitäten.
 
 In zukünftigen Projekten könnte die Analyse durch weitere Data Engineering Schritte und ergänzende Modelle noch verbessert werden.
-
-Kontakt
-
-Bei Fragen zum Projekt können Sie mich gerne kontaktieren unter werner.plutat@gmail.com.
