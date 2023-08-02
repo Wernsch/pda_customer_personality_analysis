@@ -1,30 +1,25 @@
-Customer Personality Analysis | Kundensegmentierung mit Python
+Data Analytics Customer Segmentation Project
 
-Herzlich Willkommen zum Projekt "Customer Personality Analysis". In diesem Repository finden Sie alle Ressourcen und Informationen, die Sie benötigen, um die Implementierung und Ergebnisse unseres Projekts zur Kundensegmentierung nachzuvollziehen und zu analysieren.
-Projektübersicht
+Introduction: In diesem Projekt habe ich eine Kundensegmentierung mithilfe von Data Analytics Methoden durchgeführt. Ziel war es, aus Kundendaten verschiedene Kundengruppen mit ähnlichen Eigenschaften und Verhaltensweisen zu identifizieren.
 
-Mit diesem Projekt streben wir an, die verschiedenen Kundensegmente für ein Unternehmen basierend auf einer Vielzahl von Kundenmerkmalen wie Alter, Bildungsgrad, Familienstand, Anzahl der Kinder im Haushalt, Einkommen, Ausgabenniveau für verschiedene Produkte und Reaktionen auf Rabattaktionen oder Marketingkampagnen zu analysieren.
+Die Segmentierung der Kunden ermöglicht es, Produkte und Marketing besser auf die Bedürfnisse der einzelnen Gruppen abzustimmen und damit Umsatz und Kundenzufriedenheit zu steigern.
+Data
 
-Die Hauptaufgabe besteht darin, die Rohdaten zu bereinigen, vorzubereiten und ein passendes Clustering-Modell zu erstellen, das diese Daten nutzt. Die daraus resultierenden Cluster helfen uns, tiefere Einblicke in die verschiedenen Kundensegmente zu gewinnen und können von Unternehmen genutzt werden, um ihre Marketingstrategien effektiver und effizienter zu gestalten.
-Dateistruktur
+Für die Analyse habe ich einen Datensatz mit über 2000 Kunden und über 20 Attribute wie Alter, Einkommen, Ausgabeverhalten etc. verwendet.
 
-Dieses Repository ist wie folgt strukturiert:
+Die Daten wurden gesichtet, bereinigt und transformiert, um sie für die Analyse aufzubereiten. Dabei habe ich unter anderem Datentypen angepasst, fehlende Werte behandelt und neue Features gebildet.
 
-- data/: In diesem Ordner finden Sie die Rohdaten, die für unsere Analyse verwendet werden.
-- notebooks/: In diesem Ordner finden Sie die Jupyter-Notebooks, in denen wir unsere Datenanalyse und Modellerstellung durchführen.
-- src/: Dieser Ordner enthält alle benutzerdefinierten Python-Module und Funktionen, die für unsere Analyse verwendet werden.
-- output/: In diesem Ordner finden Sie alle erzeugten Visualisierungen und Modell-Ausgaben.
-- requirements.txt: Diese Datei enthält die Auflistung aller erforderlichen Python-Pakete zur Wiederholung der Analyse.
+Methoden: Zur Segmentierung der Kunden habe ich ein unüberwachtes Machine Learning Modell vom Typ K-Means Clustering gewählt. Die optimale Anzahl von Clustern habe ich mithilfe der Elbow-Methode ermittelt.
 
-Anleitung
+Zur Visualisierung und Interpretation der Ergebnisse habe ich Verfahren wie t-SNE Plots, Heatmaps und Profiling der Cluster eingesetzt.
+Ergebnisse
 
-- Klone das Repository oder lade es als ZIP-Datei herunter.
-- Installiere die notwendigen Python-Pakete, die in requirements.txt aufgelistet sind. Du kannst dies tun, indem du pip install -r requirements.txt in deinem Terminal eingibst.
-- Navigiere zum notebooks/ Ordner und öffne das Haupt-Jupyter-Notebook. Dieses Notebook enthält den gesamten Arbeitsablauf, von der Datenvorbereitung bis zur Modellierung und Analyse.
-- Führe das Notebook aus und erforsche die verschiedenen Kundensegmente!
+Das Clustering hat vier Kundengruppen identifiziert mit jeweils unterschiedlichen Merkmalen und Verhaltensweisen. Daraus habe ich Handlungsempfehlungen für Marketing und Produktentwicklung abgeleitet.
 
-Zukunftsaussichten:
+Fazit: Die Kundensegmentierung gibt wertvolle Einblicke in die bestehende Kundenbasis und ermöglicht eine kundenorientierte Ausrichtung von Geschäftsaktivitäten.
 
-Dieses Projekt dient als Ausgangspunkt für die weitergehende Analyse und Modellierung von Kundendaten. Die erzielten Erkenntnisse können dazu beitragen, das Kundenerlebnis zu verbessern, maßgeschneiderte Marketingstrategien zu entwickeln und letztendlich das Geschäftsergebnis zu verbessern.
+In zukünftigen Projekten könnte die Analyse durch weitere Data Engineering Schritte und ergänzende Modelle noch verbessert werden.
 
-Wir freuen uns auf Feedback, Verbesserungsvorschläge und Weiterentwicklung dieses Projekts!
+Kontakt
+
+Bei Fragen zum Projekt können Sie mich gerne kontaktieren unter werner.plutat@gmail.com.
